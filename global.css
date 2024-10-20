@@ -9,6 +9,10 @@ body {
   height: 100%;
   width: 100%;
   font-family: "Poppins", sans-serif;
+  background-color: var(--off-white);
+    /* Changed from #ffffff to Off-White */
+    color: var(--dark-slate);
+    /* Changed from #000000 to Dark Slate */
 }
 
 
@@ -30,12 +34,7 @@ body {
   box-sizing: border-box;
   
 }
-body {
-  font-family: Arial, sans-serif;
-  height: 100%;
-  width: 100%;
-  font-family: "Poppins", sans-serif;
-}
+
 
 
 .poppins-thin {
@@ -64,7 +63,7 @@ header {
     align-items: center;
     justify-content: space-between;
     z-index: 1000;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);/
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 
@@ -79,6 +78,13 @@ header .logo {
     font-weight: bolder;
 }
 
+/* header .logo {
+  font-size: 3rem;
+  color: white;
+  font-weight: bolder;
+  font-size: 2.5rem;
+} */
+
 
 header .logo:hover {
     font-size: 3rem;
@@ -89,12 +95,7 @@ header .logo:hover {
 }
 
 
-header .logo {
-    font-size: 3rem;
-    color: white;
-    font-weight: bolder;
-    font-size: 2.5rem;
-}
+
 
 
 
@@ -174,15 +175,6 @@ header .fa-bars {
     cursor: pointer;
     border: .1rem solid rgba(0, 0, 0, 0.3);
     display: none;
-}
-
-
-/* Default light mode styles */
-body {
-    background-color: var(--off-white);
-    /* Changed from #ffffff to Off-White */
-    color: var(--dark-slate);
-    /* Changed from #000000 to Dark Slate */
 }
 
 
